@@ -1,0 +1,63 @@
+name: Bug report
+description: 报告可重复的 Skill、脚本、验证或报告生成问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请使用合成或已充分匿名的最小材料。不要上传真实论文、作者、队号、未授权赛题附件、管理员映射或凭据。
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      placeholder: v1.0.0 或提交哈希
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: 影响范围
+      options:
+        - Skill 触发或说明
+        - PDF/DOCX/文本抽取
+        - 证据一致性检查
+        - 报告生成
+        - 匿名净化或匿名审计
+        - 盲测或双审核比较
+        - 修改复审
+        - GitHub CI 或发布
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 最小复现步骤
+      description: 写明命令、输入类型和实际执行顺序。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为和日志
+      description: 删除身份信息和本机敏感路径后再粘贴。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 环境
+      placeholder: Windows 11 / Python 3.12 / Codex app
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我确认没有上传真实论文、身份信息、管理员映射或凭据。
+          required: true
