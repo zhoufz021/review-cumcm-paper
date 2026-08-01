@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Build and test output
+dist/
+build/
+tmp/
+test-output/
+*.log
+
+# Papers, datasets, and blind-test private material
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.csv
+*.tsv
+blind-inputs/
+administrator-mapping/
+human-gold/
+
+# Keep intentionally bundled non-sensitive assets if added later.
+!review-cumcm-paper/assets/**

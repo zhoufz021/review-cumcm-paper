@@ -1,0 +1,2 @@
+# Keep one dependency source of truth inside the installable Skill.
+-r review-cumcm-paper/requirements.txt
