@@ -56,6 +56,18 @@ python -m pip install -r review-cumcm-paper/requirements.txt
 
 ## 安装 Skill
 
+### 使用 Skill Installer 安装
+
+在 Codex 中调用 `$skill-installer`，并输入：
+
+```text
+请安装以下 GitHub 仓库中的 Skill：
+https://github.com/zhoufz021/review-cumcm-paper/tree/main/review-cumcm-paper
+
+安装完成后，重新打开一个 Codex 任务，并使用：
+$review-cumcm-paper
+请按 full 模式审核我上传的数学建模论文和原始赛题。
+
 ### 个人范围
 
 将 `review-cumcm-paper` 整个目录复制到个人 Skill 目录：
