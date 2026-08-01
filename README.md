@@ -143,6 +143,6 @@ python tools/build_release.py --version 1.0.0
 
 ## 许可与第三方材料
 
-本仓库当前采用保留所有权利的限制性许可，详见 [LICENSE](LICENSE)。若希望他人自由复制、修改和再分发，请由仓库所有者明确改用 MIT、Apache-2.0 等开源许可证。
+本仓库自有代码、文档与 Skill 资源采用 [MIT License](LICENSE) 发布。第三方论文、赛题、数据、商标及其他第三方材料不在该许可证授权范围内。
 
 第三方论文与赛事材料不随仓库分发。来源和非官方性质说明见 [NOTICE.md](NOTICE.md)。
