@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "competition": "CUMCM",
+    "year": 2024,
+    "problem_id": "A",
+    "mode": "full",
+    "paper_path": "sample-paper.pdf",
+    "problem_path": "A题.pdf",
+    "review_date": "2026-07-31"
+  },
+  "materials": [
+    {
+      "name": "original_problem",
+      "status": "provided",
+      "purpose": "建立小问索引",
+      "impact": ""
+    },
+    {
+      "name": "paper",
+      "status": "provided",
+      "purpose": "审核正文",
+      "impact": ""
+    }
+  ],
+  "scope": {
+    "performed": [
+      "全面审核"
+    ],
+    "excluded": [],
+    "confidence": "high",
+    "confidence_reason": "原题与正文均有清晰文本层"
+  },
+  "problem_index": [
+    {
+      "id": "Q1",
+      "label": "问题1",
+      "requirement": "任务1",
+      "required_outputs": [
+        "结果"
+      ],
+      "constraints": [],
+      "source_location": "赛题PDF文件页序1"
+    },
+    {
+      "id": "Q2",
+      "label": "问题2",
+      "requirement": "任务2",
+      "required_outputs": [
+        "结果"
+      ],
+      "constraints": [],
+      "source_location": "赛题PDF文件页序2"
+    },
+    {
+      "id": "Q3",
+      "label": "问题3",
+      "requirement": "任务3",
+      "required_outputs": [
+        "结果"
+      ],
+      "constraints": [],
+      "source_location": "赛题PDF文件页序2"
+    },
+    {
+      "id": "Q4",
+      "label": "问题4",
+      "requirement": "任务4",
+      "required_outputs": [
+        "结果"
+      ],
+      "constraints": [],
+      "source_location": "赛题PDF文件页序2"
+    },
+    {
+      "id": "Q5",
+      "label": "问题5",
+      "requirement": "任务5",
+      "required_outputs": [
+        "结果"
+      ],
+      "constraints": [],
+      "source_location": "赛题PDF文件页序3"
+    }
+  ],
+  "matrix": [
+    {
+      "subproblem_id": "Q1",
+      "requirement": "任务1",
+      "paper_locations": [
+        "PDF文件页序4—10"
+      ],
+      "models": [
+        "模型1"
+      ],
+      "model_choice_evidence_ids": [],
+      "result_evidence_ids": [],
+      "validation_evidence_ids": [],
+      "status": "present",
+      "shared_evidence_rationale": "",
+      "confidence": "high"
+    },
+    {
+      "subproblem_id": "Q2",
+      "requirement": "任务2",
+      "paper_locations": [
+        "PDF文件页序11—18"
+      ],
+      "models": [
+        "模型2"
+      ],
+      "model_choice_evidence_ids": [],
+      "result_evidence_ids": [],
+      "validation_evidence_ids": [],
+      "status": "present",
+      "shared_evidence_rationale": "",
+      "confidence": "high"
+    },
+    {
+      "subproblem_id": "Q3",
+      "requirement": "任务3",
+      "paper_locations": [
+        "PDF文件页序19—24"
+      ],
+      "models": [
+        "模型3"
+      ],
+      "model_choice_evidence_ids": [],
+      "result_evidence_ids": [],
+      "validation_evidence_ids": [],
+      "status": "present",
+      "shared_evidence_rationale": "",
+      "confidence": "high"
+    },
+    {
+      "subproblem_id": "Q4",
+      "requirement": "任务4",
+      "paper_locations": [
+        "PDF文件页序25—36"
+      ],
+      "models": [
+        "模型4"
+      ],
+      "model_choice_evidence_ids": [],
+      "result_evidence_ids": [],
+      "validation_evidence_ids": [],
+      "status": "present",
+      "shared_evidence_rationale": "",
+      "confidence": "high"
+    },
+    {
+      "subproblem_id": "Q5",
+      "requirement": "任务5",
+      "paper_locations": [
+        "PDF文件页序37—42"
+      ],
+      "models": [
+        "模型5"
+      ],
+      "model_choice_evidence_ids": [],
+      "result_evidence_ids": [],
+      "validation_evidence_ids": [],
+      "status": "present",
+      "shared_evidence_rationale": "",
+      "confidence": "high"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E001",
+      "claim_type": "fact",
+      "source_kind": "paper_text",
+      "location": "PDF文件页序 p.4—42",
+      "excerpt": "各小问的模型、结果和验证均在对应章节给出。",
+      "supports": "十二维量表的示例输入",
+      "status": "present",
+      "confidence": "high"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "任务理解与覆盖",
+      "weight": 10,
+      "status": "present",
+      "score": 3,
+      "reason": "主要小问均有映射",
+      "why_not_next_level": "共享接口仍可更明确",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "问题抽象与假设",
+      "weight": 8,
+      "status": "present",
+      "score": 3,
+      "reason": "抽象基本闭合",
+      "why_not_next_level": "失效边界不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "数据处理质量",
+      "weight": 8,
+      "status": "not_applicable",
+      "score": null,
+      "reason": "本示例不含观测数据",
+      "why_not_next_level": "",
+      "evidence_ids": [],
+      "confidence": "high"
+    },
+    {
+      "name": "模型选择与适配",
+      "weight": 14,
+      "status": "present",
+      "score": 3,
+      "reason": "模型与几何任务匹配",
+      "why_not_next_level": "基线比较不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "模型链与衔接",
+      "weight": 8,
+      "status": "present",
+      "score": 3,
+      "reason": "主要接口可追踪",
+      "why_not_next_level": "误差传播不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "数学表达与推导",
+      "weight": 8,
+      "status": "present",
+      "score": 3,
+      "reason": "表达可复核",
+      "why_not_next_level": "特例检查不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "算法与求解",
+      "weight": 7,
+      "status": "present",
+      "score": 3,
+      "reason": "求解流程较完整",
+      "why_not_next_level": "复杂度不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "验证与稳健性",
+      "weight": 12,
+      "status": "present",
+      "score": 3,
+      "reason": "验证链较完整",
+      "why_not_next_level": "极端情景不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "结果与可执行性",
+      "weight": 8,
+      "status": "present",
+      "score": 3,
+      "reason": "结果可执行",
+      "why_not_next_level": "边界说明不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "图表证据",
+      "weight": 6,
+      "status": "present",
+      "score": 3,
+      "reason": "关键图表可读",
+      "why_not_next_level": "验证图不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "正文写作与论证",
+      "weight": 7,
+      "status": "present",
+      "score": 3,
+      "reason": "主线清楚",
+      "why_not_next_level": "局限讨论不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "可复现性与规范",
+      "weight": 4,
+      "status": "present",
+      "score": 3,
+      "reason": "主要信息可追踪",
+      "why_not_next_level": "环境信息不足",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "problem_type_review": {
+    "primary_type": "几何、定位与路径",
+    "passed": [
+      "坐标与碰撞约束已检查"
+    ],
+    "failed": [],
+    "not_applicable": [],
+    "unverifiable": []
+  },
+  "strengths": [
+    {
+      "reason": "逐问结构清楚",
+      "evidence_ids": [
+        "E001"
+      ]
+    }
+  ],
+  "issues": [],
+  "priorities": [],
+  "unverifiable_items": [],
+  "re_review": [],
+  "known_limitations": [
+    "这是脚本验证夹具，不代表真实论文结论。"
+  ]
+}

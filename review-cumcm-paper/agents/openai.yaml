@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学建模论文审核"
+  short_description: "按赛题与证据链全面审核 CUMCM 数学建模论文并生成报告"
+  default_prompt: "使用 $review-cumcm-paper 对这篇 CUMCM 数学建模论文逐项对照原始赛题进行审核，并生成证据可回查、可直接用于修改的报告。"

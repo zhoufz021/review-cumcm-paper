@@ -1,0 +1,3 @@
+# Runtime dependencies tested with Python 3.9 and 3.12.
+pdfplumber>=0.11,<0.12
+pypdf>=6,<7
